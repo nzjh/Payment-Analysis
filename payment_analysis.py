@@ -11,7 +11,7 @@ import pandas as pd
 from openpyxl import load_workbook
 
 
-df_in = pd.read_excel('Payment.xlsx', sheet_name='June')
+df_in = pd.read_excel('Payment.xlsx', sheet_name='Data')
 category_dict = dict()
 total = 0;
 
